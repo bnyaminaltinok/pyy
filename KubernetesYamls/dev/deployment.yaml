@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
       - name: bootcamp-html
-        image: bunyaminaltinok/tbbdevops:v$BUILD_NUMBER
+        image: bunyaminaltinok/tbbdevops:v$DOCKER_BUILD_NUMBER
         ports:
         - containerPort: 80

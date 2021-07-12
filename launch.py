@@ -2,7 +2,7 @@ from flask import Flask
 from flask import jsonify
 helloworld = Flask(__name__)
 
-data = {
+veri = {
   okkkkk
 }
 
@@ -13,9 +13,9 @@ okk
 }
 
 
-@helloworld.route("/data")
+@helloworld.route("/veri")
 def run():
-    return jsonify(data)
+    return jsonify(veri)
 if __name__ == "__main__":
     helloworld.run(host="0.0.0.0", port=int("5000"), debug=True)
 
